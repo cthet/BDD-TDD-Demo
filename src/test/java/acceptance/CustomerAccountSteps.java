@@ -3,7 +3,7 @@ package acceptance;
 import com.wealcome.testbdd.domain.CustomerAccount;
 import com.wealcome.testbdd.domain.gateways.AuthenticationGateway;
 import com.wealcome.testbdd.domain.repositories.CustomerAccountRepository;
-import cucumber.api.java8.En;
+import io.cucumber.java8.En;
 
 import java.math.BigDecimal;
 

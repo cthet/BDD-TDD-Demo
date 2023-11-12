@@ -1,8 +1,11 @@
 package acceptance.configuration;
 
-import cucumber.api.java8.En;
+
+import io.cucumber.java8.En;
+import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.test.context.ContextConfiguration;
 
+@CucumberContextConfiguration
 @ContextConfiguration(classes = {
         RepositoriesConfiguration.class,
         GatewaysConfiguration.class

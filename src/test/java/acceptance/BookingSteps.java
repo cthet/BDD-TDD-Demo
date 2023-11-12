@@ -8,8 +8,8 @@ import com.wealcome.testbdd.domain.repositories.BookingRepository;
 import com.wealcome.testbdd.domain.repositories.CustomerAccountRepository;
 import com.wealcome.testbdd.domain.repositories.VTCRepository;
 import com.wealcome.testbdd.usecases.BookVTC;
-import cucumber.api.PendingException;
-import cucumber.api.java8.En;
+import io.cucumber.java8.En;
+import io.cucumber.java8.PendingException;
 
 import java.util.Set;
 
@@ -22,7 +22,7 @@ public class BookingSteps implements En {
                         CustomerAccountRepository customerAccountRepository,
                         AuthenticationGateway authenticationGateway) {
 
-        final BookVTC bookVTC = new BookVTC(customerAccountRepository, bookingRepository);
+        final BookVTC bookVTC = new BookVTC(customerAccountRepository, bookingRepository,authenticationGateway);
         BookingAttempt bookingAttempt = new BookingAttempt();
 
         When("^je tente de réserver le VTC \"([^\"]*)\" de \"([^\"]*)\" à \"([^\"]*)\"$",

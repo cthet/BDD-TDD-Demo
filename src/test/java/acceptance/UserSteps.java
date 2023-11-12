@@ -1,14 +1,13 @@
 package acceptance;
 
-import com.wealcome.testbdd.domain.gateways.AuthenticationGateway;
 import com.wealcome.testbdd.domain.Customer;
+import com.wealcome.testbdd.domain.gateways.AuthenticationGateway;
 import com.wealcome.testbdd.domain.repositories.CustomerRepository;
-import cucumber.api.PendingException;
-import cucumber.api.java8.En;
+import io.cucumber.java8.En;
+import io.cucumber.java8.PendingException;
 
 import java.util.Optional;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class UserSteps implements En {

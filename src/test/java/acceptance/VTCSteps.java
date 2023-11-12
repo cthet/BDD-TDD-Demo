@@ -2,8 +2,8 @@ package acceptance;
 
 import com.wealcome.testbdd.domain.VTC;
 import com.wealcome.testbdd.domain.repositories.VTCRepository;
-import cucumber.api.DataTable;
-import cucumber.api.java8.En;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java8.En;
 
 import java.util.List;
 import java.util.Map;
