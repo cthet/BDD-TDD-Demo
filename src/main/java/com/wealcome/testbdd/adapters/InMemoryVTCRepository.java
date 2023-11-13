@@ -1,7 +1,7 @@
 package com.wealcome.testbdd.adapters;
 
 import com.wealcome.testbdd.domain.VTC;
-import com.wealcome.testbdd.domain.repositories.VTCRepository;
+import com.wealcome.testbdd.applicationVTC.port.repositories.VTCRepository;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

@@ -8,7 +8,8 @@ import org.springframework.test.context.ContextConfiguration;
 @CucumberContextConfiguration
 @ContextConfiguration(classes = {
         RepositoriesConfiguration.class,
-        GatewaysConfiguration.class
+        GatewaysConfiguration.class,
+        AdaptersConfiguration.class
 })
 class ContextConfigurationTesting implements En {
 

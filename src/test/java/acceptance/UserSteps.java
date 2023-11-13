@@ -1,10 +1,9 @@
 package acceptance;
 
+import com.wealcome.testbdd.applicationVTC.port.gateways.AuthenticationGateway;
+import com.wealcome.testbdd.applicationVTC.port.repositories.CustomerRepository;
 import com.wealcome.testbdd.domain.Customer;
-import com.wealcome.testbdd.domain.gateways.AuthenticationGateway;
-import com.wealcome.testbdd.domain.repositories.CustomerRepository;
 import io.cucumber.java8.En;
-import io.cucumber.java8.PendingException;
 
 import java.util.Optional;
 
@@ -22,8 +21,7 @@ public class UserSteps implements En {
         });
 
         Given("^je ne suis pas authentifié$", () -> {
-            // Write code here that turns the phrase above into concrete actions
-            throw new PendingException();
+            assertTrue(authenticationGateway.currentCustomer().isEmpty());
         });
     }
 }

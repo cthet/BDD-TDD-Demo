@@ -1,7 +1,7 @@
 package com.wealcome.testbdd.adapters;
 
 import com.wealcome.testbdd.domain.Booking;
-import com.wealcome.testbdd.domain.repositories.BookingRepository;
+import com.wealcome.testbdd.applicationVTC.port.repositories.BookingRepository;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

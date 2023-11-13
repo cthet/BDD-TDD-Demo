@@ -40,7 +40,7 @@ Feature: Tout client - Réserver un VTC
       | Jean-Michel   | 0           | 0           | 10          | 10          | Marc       | 43 rue Archereau 75019 Paris      | 2 rue Clisson 75013 Paris                   |
       | Patrick       | 26          | 26          | 10          | 10          | Marc       | 5 rue Clisson 75013 Paris         | 21 rue Laffitte 75009 Paris                 |
       | Michael       | 29          | 29          | 10          | 10          | Vincent    | 136 avenue de Flandre 75019 Paris | 2 Avenue de Flandre 75019 Paris             |
-      | Michael       | 20          | 20          | 15          | 10          | Vincent    | 136 avenue de Flandre 75019 Paris | 2 Avenue de Flandre 75019 Paris             |
+      | Michael       | 20          | 20          | 15          | 15          | Vincent    | 136 avenue de Flandre 75019 Paris | 2 Avenue de Flandre 75019 Paris             |
       | Michael       | 2           | 2           | 10          | 10          | Vincent    | 2 Avenue de Flandre 75019 Paris   | 111 avenue Victor Hugo, 93300 Aubervilliers |
 
 

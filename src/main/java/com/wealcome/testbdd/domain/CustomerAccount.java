@@ -49,4 +49,11 @@ public class CustomerAccount {
         balance = balance.subtract(charge.getDebit());
         creditNote = creditNote.subtract(charge.getConsumedCreditNote());
     }
+
+    public boolean hasSufficientBalance(ChargeStrategy chargeStrategy) {
+        Charge charge = chargeStrategy.charge(creditNote);
+        Boolean isBalanceSufficient = balance.subtract((charge.getDebit())).compareTo(BigDecimal.ZERO) >= 0;
+        Boolean isCreditNoteSufficient = creditNote.subtract(charge.getConsumedCreditNote()).compareTo(BigDecimal.ZERO) >= 0;
+        return isBalanceSufficient && isCreditNoteSufficient;
+    }
 }

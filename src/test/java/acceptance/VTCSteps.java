@@ -1,7 +1,7 @@
 package acceptance;
 
 import com.wealcome.testbdd.domain.VTC;
-import com.wealcome.testbdd.domain.repositories.VTCRepository;
+import com.wealcome.testbdd.applicationVTC.port.repositories.VTCRepository;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java8.En;
 

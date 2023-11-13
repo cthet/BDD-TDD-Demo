@@ -1,4 +1,4 @@
-package com.wealcome.testbdd.domain.repositories;
+package com.wealcome.testbdd.applicationVTC.port.repositories;
 
 import com.wealcome.testbdd.domain.Booking;
 

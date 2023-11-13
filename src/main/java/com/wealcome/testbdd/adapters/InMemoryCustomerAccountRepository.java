@@ -1,7 +1,7 @@
 package com.wealcome.testbdd.adapters;
 
 import com.wealcome.testbdd.domain.CustomerAccount;
-import com.wealcome.testbdd.domain.repositories.CustomerAccountRepository;
+import com.wealcome.testbdd.applicationVTC.port.repositories.CustomerAccountRepository;
 
 import java.util.LinkedHashSet;
 import java.util.Optional;

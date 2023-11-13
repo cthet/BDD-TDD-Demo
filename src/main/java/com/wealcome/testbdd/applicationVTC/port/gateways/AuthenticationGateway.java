@@ -1,4 +1,4 @@
-package com.wealcome.testbdd.domain.gateways;
+package com.wealcome.testbdd.applicationVTC.port.gateways;
 
 import com.wealcome.testbdd.domain.Customer;
 

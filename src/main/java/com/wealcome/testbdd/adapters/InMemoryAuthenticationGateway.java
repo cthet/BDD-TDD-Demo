@@ -1,7 +1,7 @@
 package com.wealcome.testbdd.adapters;
 
 import com.wealcome.testbdd.domain.Customer;
-import com.wealcome.testbdd.domain.gateways.AuthenticationGateway;
+import com.wealcome.testbdd.applicationVTC.port.gateways.AuthenticationGateway;
 
 import java.util.Optional;
 
